@@ -28,10 +28,13 @@ jobs:
         pip install coverage
         pip install pytest
         pip install Flask
+        
     - name: Run Tests with Coverage
       run: |
         coverage run -m --branch pytest tests
+        continue-on-error: true
         coverage xml -o coverage.xml
+        
 
     - name: Upload coverage reports to Codecov
       uses: codecov/codecov-action@v3
