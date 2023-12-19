@@ -4,4 +4,4 @@ sphinx-autodoc-typehints[type_comments]>=1.8.0
 typing-extensions
 flask-login
 mockupdb
-
+sentry-sdk
