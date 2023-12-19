@@ -13,3 +13,15 @@ asttokens
 responses
 pysocks
 ipdb
+botocore
+Bottle
+Celery
+Django
+Falcon
+Starlette
+httpx
+Pyramid
+RQ
+Sanic
+SQLAlchemy
+Tornado
