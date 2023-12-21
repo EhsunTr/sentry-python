@@ -28,6 +28,7 @@ jobs:
         pip install coverage
         pip install pytest
         pip install Flask
+        pip install pytest-django
         
     - name: Run Tests with Coverage
       run: |
