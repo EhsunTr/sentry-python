@@ -29,7 +29,7 @@ jobs:
         pip install pytest
         pip install Flask
         pip install pytest-django
-        
+        pip install fakeredis
     - name: Run Tests with Coverage
       run: |
         coverage run -m --branch pytest tests
